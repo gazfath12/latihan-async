@@ -54,3 +54,10 @@ rl.question('Masukkan nama kota: ', (city) => {
     }  
     rl.close();  
 });
+// output
+//Masukkan nama kota: magelang
+// Cuaca di magelang:
+// Tanggal: 23/9/2024, 16.03.00
+// Suhu: 26.53°C
+// Kelembaban: 76%
+// Deskripsi: broken clouds

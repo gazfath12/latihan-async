@@ -1,7 +1,7 @@
 const melamarfulanah = async (santriProfile) => {
   return new Promise((resolve, reject) => {
     if (!santriProfile.sudah_mandiri) {
-      reject("fulanah memiinginkan mandiri");
+      reject("fulanah menginginkan mandiri");
     }
     if (santriProfile.hafalan_juz < 10) {
     return  reject("ditolak maunya  yang hafalananya banyak ");
